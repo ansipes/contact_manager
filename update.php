@@ -2,6 +2,9 @@
 
 include 'database.php';
 
+// This should test if a new file has been uploaded, then updated the image link.
+// Currently not working for some reason.
+
 if(isset($_FILES['file'])) {
 
   $file = $_FILES['file'];
@@ -55,6 +58,8 @@ if(isset($_FILES['file'])) {
   ));
 
 }
+
+// This should update everything else if the image was not updated.
 
 else{
 

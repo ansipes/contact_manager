@@ -19,7 +19,7 @@
 
       $file_ext = strtolower(end($file_ext));
 
-      $allowed = array('jpg', 'png');
+      $allowed = array('jpg');
 
       if(in_array($file_ext, $allowed)) {
         if($file_error === 0) {
@@ -37,11 +37,15 @@
       }
   }
 
+// Build the mySQL statement.
+
   $stmt = $db->prepare("INSERT INTO contacts
     (first, last, title, address, city, state, zip, phone, email, notes, image)
     VALUES
     (:first, :last, :title, :address, :city, :state, :zip, :phone, :email, :notes, :image)
   ");
+
+// Execute the mySQL statement.
 
   $stmt->execute(array(
     ':first' => $_POST['first'],
@@ -59,6 +63,8 @@
   ));
 
   $id = $db->lastInsertId();
+
+// Redirect
 
   header('Location: http://localhost:8080/edit.php?id=' . $id . '&created=true');
 ?>

@@ -1,6 +1,9 @@
 <?php
 
   include 'header.php';
+
+// Selects values from respective ID.
+
   $id = $_GET['id'];
 
   $stmt = $db->prepare('SELECT * from contacts WHERE id = :id LIMIT 1');

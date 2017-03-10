@@ -16,7 +16,13 @@
 <div class="uk-container">
 
 <div class="uk-grid">
-    <?php foreach($contacts as $contact) : ?>
+
+
+
+
+    <?php foreach($contacts as $contact) : // Makes a card for every contact inside the table. ?>
+
+
 <div class="uk-width-1-3@m" style="margin-top: 40px;">
         <div class="uk-card uk-card-default">
 
