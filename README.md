@@ -11,9 +11,13 @@ Point a MAMP server to the cloned directory as the 'home' folder.
 
 ## Step 3
 
-Import the .sql file into phpMyAdmin. This will set up the database and provide a few sample values.
+Create a new database called "p2" in phpMyAdmin.
 
 ## Step 4
+
+Import the .sql file into phpMyAdmin. This will set up the table and provide a few sample values.
+
+## Step 5
 
 Visit index.php. Everything should be up and running.
 
