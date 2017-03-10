@@ -4,17 +4,17 @@
 
         <div class="uk-navbar-center-left"><div>
             <ul class="uk-navbar-nav">
-                <li><a href="/index.php">Portfolio</a></li>
+                <li><a href="#">Portfolio</a></li>
             </ul>
         </div>
     </div>
 
-        <a class="uk-navbar-item uk-logo" href="/new.php"><i class="fa fa-github fa-plus-circle" aria-hidden="true"></i></a>
+        <a class="uk-navbar-item uk-logo" href="https://github.com/ansipes/contact_manager" target="_blank"><i class="fa fa-github fa-plus-circle" aria-hidden="true"></i></a>
 
 
       <div class="uk-navbar-center-right"><div>
             <ul class="uk-navbar-nav">
-                <li><a href="/styles.php">Resources</a></li>
+                <li><a href="/resources.php">Resources</a></li>
             </ul>
         </div>
       </div>

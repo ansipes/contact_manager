@@ -70,7 +70,7 @@
                     <input style="border: 0px solid lightgray !important; padding: 0px !important; color: white;" type="file" name="file" />
                   </div>
 
-            <button class="uk-button uk-button-danger uk-width-1-1">Create New</button>
+            <button class="uk-button uk-button-danger uk-width-1-1" style="background-color: #FFD6BA">Create New</button>
           </form>
 
         </div>

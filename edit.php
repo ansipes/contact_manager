@@ -19,7 +19,7 @@
         <div class="uk-card uk-card-default">
           <div class="uk-card-body">
             <h3 style="text-align: center;">Edit</h3>
-            <div class="uk-card-badge"><a href="/delete.php?id=<?= $contact['id']; ?>">Delete</a></div>
+            <div class="uk-card-badge"><a class="uk-button uk-button-small" style="background-color: #FAF9F9" href="/delete.php?id=<?= $contact['id']; ?>">Delete</a></div>
 
           <form method="POST" action="/update.php" id="new">
             <input type="hidden" name="id" id="contact_id" value="<?= $contact['id']; ?>" />
@@ -81,7 +81,7 @@
                     <input style="border: 0px solid lightgray !important; padding: 0px !important; color: white;" type="file" name="file" />
                   </div>
 
-            <button class="uk-button uk-button-danger uk-width-1-1">Save Contact</button>
+            <button class="uk-button uk-button-danger uk-width-1-1" style="background-color: #FFD6BA">Save Contact</button>
           </form>
 
         </div>
