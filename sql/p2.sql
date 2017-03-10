@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Mar 10, 2017 at 07:02 PM
+-- Generation Time: Mar 10, 2017 at 07:04 PM
 -- Server version: 5.6.34
 -- PHP Version: 7.1.0
 
@@ -47,7 +47,7 @@ CREATE TABLE `contacts` (
 
 INSERT INTO `contacts` (`id`, `first`, `last`, `title`, `address`, `city`, `state`, `zip`, `phone`, `email`, `notes`, `image`) VALUES
 (28, 'John', 'Appleseed', 'Mr.', '110 Country Club Road', 'Chapel Hill', 'North Carolina', '27514', '9999999999', 'johnappleseed@icloud.com', 'I like to go for long walks on the beach.', '58c2791a00ae65.95537028.jpg'),
-(32, 'Catilin', 'Brennan', 'Ms.', '110 Country Club Road', 'Chapel Hill', 'North Carolina', '27514', '9199992992', 'cbrennan@live.unc.edu', 'I like pineapple on my pizza.', '58c280a206f4f4.25735101.jpg'),
+(32, 'Caitlin', 'Brennan', 'Ms.', '110 Country Club Road', 'Chapel Hill', 'North Carolina', '27514', '9199992992', 'cbrennan@live.unc.edu', 'I like pineapple on my pizza.', '58c280a206f4f4.25735101.jpg'),
 (33, 'Andrew', 'Sipes', 'Mr.', '145 Byers Road', 'Troutman', 'NC', '27514', '7049299067', 'ansipes@live.unc.edu', '\"GIF\" is pronounced \"JIF\".', 'default.jpg');
 
 --
